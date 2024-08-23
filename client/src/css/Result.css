@@ -1,0 +1,94 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: 50vh;
+  border: 2px solid white;
+  border-radius: 3px;
+  gap: 15px;
+}
+.result-container-quiz-completed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+.circle-container {
+  display: flex;
+  margin-top: 25px;
+  gap: 30px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.true {
+  border: 2px solid #4c9a2a;
+  background-color: #4c9a2a;
+
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.true:hover {
+  background-color: transparent;
+  color: #4c9a2a;
+  box-shadow: 0 0 10px #4c9a2a;
+}
+
+.false {
+  border: 2px solid #af1607;
+  background-color: #af1607;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.false:hover {
+  background-color: transparent;
+  color: #af1607;
+  box-shadow: 0 0 10px #af1607;
+}
+
+.empty {
+  border: 2px solid #565656;
+  background-color: #565656;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.empty:hover {
+  background-color: transparent;
+  color: #565656;
+  box-shadow: 0 0 10px #565656;
+}
+.result-score {
+  color: white;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.result-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: white;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+}
+.check-icon {
+  height: 1em;
+  width: auto;
+}
